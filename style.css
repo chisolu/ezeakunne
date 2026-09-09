@@ -9,9 +9,8 @@
     color: black;
     font-size: 22px;
     overflow: auto;
-    /* text-align: center; */
-    /* display: flex; */
-    /* flex-direction: column; */
+    font-family: Arial, sans-serif;
+    font-weight: 500;
 }
 .main{
     width: 100%;
@@ -78,14 +77,15 @@ header img{
     justify-content: space-evenly;
     flex-wrap: wrap;
     margin: 10px 10px;
-    font-size: 18px;
+    font-size: 16px;
     color: wheat;
     text-transform: capitalize;
 }
 .center h6::before{
     content: ".";
     margin-right: 10px;
-    color: white;
+    color: black;
+    font-size: 12px;
 }
 .right{
     background-color: whitesmoke;
